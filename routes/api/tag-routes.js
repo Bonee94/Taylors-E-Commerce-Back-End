@@ -34,8 +34,21 @@ try {
 }
 });
 
-router.post("/", (req, res) => {
-  // create a new tag
+// create a new tag
+router.post("/", async (req, res) => {
+    /* req.body should look like this...
+  {
+    tag_name: "black"
+  } 
+  */
+
+  Tag.create(req.body)
+  .then((newTag) => {
+    res.status(200).json(newTag);
+  })
+  .catch((err) => {
+    res.status(500).json(err);
+  });
 });
 
 router.put("/:id", (req, res) => {
