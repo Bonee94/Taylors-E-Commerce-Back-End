@@ -14,7 +14,7 @@
 
 ## Links
 
-- [Video Walkthrough](https://drive.google.com/file/d/1WyyF5KX3gFYuBVOo9awhSy5ks0RNjc26/view)
+- [Video Walkthrough](https://drive.google.com/file/d/119ZXdEM8aQua04I1OJL2ANuyStjj8o1U/view)
 - [Github Project Repo](https://github.com/Bonee94/Taylors-E-Commerce-Back-End)
 
 ## User Story
